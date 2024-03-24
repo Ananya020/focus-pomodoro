@@ -1,3 +1,5 @@
+This site has been deployed using netlify 
+https://mypomodoro45.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
