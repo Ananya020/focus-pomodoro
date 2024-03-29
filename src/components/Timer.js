@@ -66,7 +66,7 @@ function Timer() {
 
   return (
     <div>
-      <CircularProgressbar
+     <CircularProgressbar
         value={percentage}
         text={minutes + ':' + seconds}
         styles={buildStyles({
@@ -74,6 +74,9 @@ function Timer() {
         pathColor:mode === 'work' ? red : green,
         tailColor:'rgba(255,255,255,.2)',
       })} />
+
+
+
       <div style={{marginTop:'20px'}}>
         {isPaused
           ? <PlayButton onClick={() => { setIsPaused(false); isPausedRef.current = false; }} />

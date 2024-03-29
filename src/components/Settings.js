@@ -17,7 +17,7 @@ function Settings() {
         value={settingsInfo.workMinutes}
         onChange={newValue => settingsInfo.setWorkMinutes(newValue)}
         min={1}
-        max={120}
+        max={180}
       />
       <label>break: {settingsInfo.breakMinutes}:00</label>
       <ReactSlider
