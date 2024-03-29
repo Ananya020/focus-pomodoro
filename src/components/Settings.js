@@ -27,7 +27,7 @@ function Settings() {
         value={settingsInfo.breakMinutes}
         onChange={newValue => settingsInfo.setBreakMinutes(newValue)}
         min={1}
-        max={120}
+        max={180}
       />
       <div style={{textAlign:'center', marginTop:'20px'}}>
         <BackButton onClick={() => settingsInfo.setShowSettings(false)} />
